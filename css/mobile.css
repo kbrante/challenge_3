@@ -14,12 +14,14 @@
     h1 {
         font-size: 55px;
         text-align: center;
+        color: #2B3F48;
     }
     h2 {
-        font-size: 30px;
+        font-size: 32px;
+        color: #2B3F48;
     }
     h3 {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: normal;
     }
     ul {
@@ -52,7 +54,10 @@
         background-size: cover;
     }
     #banner img {
+        margin: 0.5em 0.5em 0 0;
         border-radius: 180px;
+        width: 25vw;
+        max-width: 200px;
      }
      #banner .button {
          background-color: #2C414A;
@@ -61,10 +66,14 @@
      section {
          padding: 0.5em;
          text-align: center;
+         color: #656565;
      }
+    section:nth-child(2n+1) h2{
+        color: #fff;
+    }
     section:nth-child(2n+1){
          background-color: #00BB63;
-         color: rgba(255, 255, 255, 0.8);
+         color: rgba(255,255,255,.8);
      }
     section:nth-child(2n+1) .button {
         background-color: #fff;
@@ -81,7 +90,7 @@
         font-weight: bold;
     }
     p {
-         font-size: 14px;
+         font-size: 16px;
      }
     .button {
         display:block;
@@ -99,6 +108,7 @@
         text-transform: uppercase;
         text-align: center;
         color: #656565;
+        margin: 4em 0;
     }
     footer a {
         text-decoration: none;

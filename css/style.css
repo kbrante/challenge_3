@@ -6,11 +6,12 @@
         margin: 0 auto;
     }
     h1 {
-        font-size: 25px;
+        font-size: 26px;
         display: inline-block;
         font-weight: bold;
     }
     h2 {
+        margin-top: 2em;
         font-size: 55px;
         font-weight: bold;
     }
@@ -20,7 +21,7 @@
     }
     nav ul{
         display: inline-block;
-        margin-left: 23em;
+        margin: 2em 0 1em 29em;
 
     }
     nav li {
@@ -34,5 +35,15 @@
     .button {
         margin: 3em auto 5em auto;
     }
-
+    section img {
+        width: auto;
+        margin: 5em 2em 0 0;
+    }
+    p {
+        font-size: 17px;
+        line-height: 2em;
+    }
+    footer p {
+        font-size: 12px;
+    }
 }

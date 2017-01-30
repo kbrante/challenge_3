@@ -1,0 +1,48 @@
+@media (max-width:320px) {
+
+    h1 {
+        font-size: 55px;
+        text-align: center;
+    }
+    ul {
+        padding: 0;
+    }
+    li {
+        display: block;
+        list-style-type: none;
+        width: 100%;
+    }
+    nav a {
+        text-align: center;
+        text-decoration: none;
+        color: #2C414A;
+        display: block;
+        margin: 0.5em 0;
+    }
+    nav a:hover {
+        color: #27AE61;
+    }
+    #banner {
+        background-image: url("./images/banner.png");
+    }
+    #banner img {
+        border-radius: 180px;
+     }
+     section {
+         text-align: center;
+     }
+     section:nth-child(2n){
+         background-color: #00BB63;
+         color: rgba(255, 255, 255, 0.8);
+     }
+     h2 {
+         font-size: 30px;
+     }
+     h3 {
+         font-size: 18px;
+         font-weight: normal;
+     }
+     p {
+         font-size: 14px;
+     }
+}

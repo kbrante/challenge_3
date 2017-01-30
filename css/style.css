@@ -1,0 +1,38 @@
+@media(min-width:1000px){
+    header nav,
+    main p,
+    footer p {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 25px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 55px;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 22px;
+        margin-bottom: 2.5em;
+    }
+    nav ul{
+        display: inline-block;
+        margin-left: 23em;
+
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 2em;
+
+    }
+    nav a {
+        font-size: 12px
+    }
+    .button {
+        margin: 3em auto 5em auto;
+    }
+
+}

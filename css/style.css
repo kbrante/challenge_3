@@ -11,7 +11,6 @@
         font-weight: bold;
     }
     h2 {
-        margin-top: 2em;
         font-size: 55px;
         font-weight: bold;
     }
@@ -38,25 +37,19 @@
 
     }
     .button {
-        margin: 3em auto 5em auto;
+        margin: 3em auto 0 auto;
     }
     #banner img {
         width: auto;
-        margin: 5em 2em 0 0;
+        margin-right: 2em;
+        margin-bottom: 4em;
+    }
+    section {
+        padding: 5em 0;
     }
     p {
         font-size: 17px;
         line-height: 2em;
-    }
-    form input[type="reset"] {
-        padding: 0.5em 1em;
-        margin: 2em 1em;
-        width: 10em;
-    }
-    form input[type="submit"] {
-        padding: 0.5em 1em;
-        margin: 2em 1em;
-        width: 10em;
     }
     footer p {
         font-size: 12px;

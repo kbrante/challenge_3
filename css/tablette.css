@@ -1,0 +1,27 @@
+@media (min-width:700px) and (max-width:1000px){
+    h1 {
+        display: inline-block;
+        font-size: 26px;
+    }
+    nav {
+        text-align: center;
+    }
+    nav ul{
+        display: inline-block;
+        margin: 2em 0 1em 10em;
+
+    }
+    nav li {
+        display: inline-block;
+        margin-right: 2em;
+
+    }
+    li+li a {
+        border: none;
+        width: 100%;
+    }
+    nav a {
+        font-size: 12px;
+
+    }
+}

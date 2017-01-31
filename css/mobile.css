@@ -45,6 +45,12 @@
         text-transform: uppercase;
         color: #2C414A;
     }
+    li+li a{
+        border-top: 1px solid #2B3F48;
+        padding: 0.7em 0;
+        width: 90%;
+        margin: auto;
+    }
     nav a:hover {
         color: #27AE61;
     }

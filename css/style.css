@@ -21,7 +21,7 @@
     }
     nav ul{
         display: inline-block;
-        margin: 2em 0 1em 29em;
+        margin: 2em 0 1em 28em;
 
     }
     nav li {
@@ -29,13 +29,18 @@
         margin-right: 2em;
 
     }
+    li+li a {
+        border: none;
+        width: 100%;
+    }
     nav a {
-        font-size: 12px
+        font-size: 12px;
+
     }
     .button {
         margin: 3em auto 5em auto;
     }
-    section img {
+    #banner img {
         width: auto;
         margin: 5em 2em 0 0;
     }

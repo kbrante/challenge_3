@@ -48,6 +48,16 @@
         font-size: 17px;
         line-height: 2em;
     }
+    form input[type="reset"] {
+        padding: 0.5em 1em;
+        margin: 2em 3em;
+        width: 10em;
+    }
+    form input[type="submit"] {
+        padding: 0.5em 1em;
+        margin: 2em 3em;
+        width: 10em;
+    }
     footer p {
         font-size: 12px;
     }

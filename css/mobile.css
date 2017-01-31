@@ -109,6 +109,43 @@
         border-radius: 5px;
         color: #fff;
     }
+    form {
+        margin: auto;
+        max-width: 30em;
+    }
+    form label {
+        display: block;
+        margin: 0.5em 0 0.2em 0;
+        text-align: left;
+    }
+    form input:not([type="submit"]):not([type="reset"]),
+    form textarea,
+    select {
+        width: 100%;
+    }
+    form textarea {
+        padding: 0.5em;
+    }
+    form input[type="reset"] {
+        padding: 0.3em 0.5em;
+        margin: 1em 5em 1em 0;
+        width: 5em;
+        box-shadow: 0 0 3px #000;
+        background-color: rgba(226, 1, 1, 0.8);
+        border: 1px solid rgba(187, 4, 4, 0.8);
+        border-radius: 5px;
+        color: #fff;
+    }
+    form input[type="submit"] {
+        padding: 0.3em 0.5em;
+        margin: 1em 0 1em 5em;
+        width: 5em;
+        box-shadow: 0 0 3px #000;
+        background-color: rgba(47, 195, 3, 0.8);
+        border: 1px solid rgba(39, 163, 2, 0.8);
+        border-radius: 5px;
+        color: #fff;
+    }
     footer {
         margin-top: 1em;
         text-transform: uppercase;
